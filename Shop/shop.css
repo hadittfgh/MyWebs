@@ -1,0 +1,56 @@
+body {
+    background: rgb(18, 59, 135);
+    background: linear-gradient(145deg, rgba(18, 59, 135, 1) 3%, rgba(17, 9, 82, 1) 54%, rgba(73, 10, 104, 1) 100%);
+}
+
+.myShadow{
+    box-shadow: #bb2dfd 1px 2px 15px;
+}
+
+.navbar-brand{
+    font-family:"BCoves";
+}
+
+@font-face {
+    font-family: "Pixel";
+    src: url(../Fonts/Pixeled.ttf);
+    font-family: "Azonix";
+    src: url(../Fonts/Azonix.otf);
+    font-family: "BCoves";
+    src: url(../Fonts/Coves/Coves\ Bold.otf);
+}
+
+.mybtn{
+    border: 1px solid #f8f9fa;
+    color: #f8f9fa;
+    width: 11rem;
+    font-size: small;
+}
+
+.mybtn:hover{
+    background-color: #f8f9fa;
+    color: black ;
+    font-weight: bold;
+    transition: font-weight, 0.5s;
+}
+
+.cards>div>div:hover{
+    box-shadow: #d57aff 1px 2px 70px;
+}
+
+.myAlert{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.myAlertbtn{
+    padding:18px 20px 0px 5px !important;
+}
+
+.myTimerColor{
+    background-color: #d57aff92;
+}
+
+.bg-myColor{
+    background-color: rgba(18, 59, 135, 1);
+}

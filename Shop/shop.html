@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="shop.css" />
+  <title>Shop</title>
+</head>
+
+<body class="text-light">
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-1 me-5 mb-2" href="#" style="color: #3d005a"><i class="bi bi-cart4"
+              style="width: 100px; height: 80px"></i>
+            Hamsi shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Social media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#">Face book</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Phone</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Log Out</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-secondary me-2" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <form style="margin-top: 9rem" id="form1">
+        <section id="section1">
+          <div class="row justify-content-center align-content-center align-items-center mb-5">
+            <div class="col-auto clock">
+              <span class="myTimerColor px-2 py-2 " style="border-radius: 8px 0px 0px 8px;padding-bottom: 10px !important">
+                Days <span class="badge bg-myColor days">0</span>
+              </span>
+              <span class="myTimerColor px-2 py-2" style="padding-bottom: 10px !important">
+                Hours <span class="badge bg-myColor hours">0</span>
+              </span>
+              <span class="myTimerColor px-2 py-2" style="padding-bottom: 10px !important">
+                Minutes <span class="badge bg-myColor minutes">0</span>
+              </span>
+              <span class="myTimerColor px-2 py-2" style="border-radius: 0px 8px 8px 0px;padding-bottom: 10px !important">
+                Seconde <span class="badge bg-myColor seconde">0</span>
+              </span>
+            </div>
+          </div>
+          <div class="
+                row
+                justify-content-center
+                align-content-center align-items-center
+                cards
+              ">
+            <div class="col-3">
+              <div class="card myShadow" style="width: 18rem" id="card1">
+                <img src="images/19AW_In-Store_MS_NFS-HEAT-OCTN_WindowComm-Banner_4400x3000mm.jpg" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="color: #123b87">Shoes</h5>
+                  <p class="card-text text-dark">
+                    Our sneakers are lightweight and prevent sweating and
+                    bloating due to their special design
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price : $208.5</li>
+                  <li class="list-group-item d-flex align-items-center">
+                    How many do you need?
+                    <input type="number" value="0" class="form-control ms-2" style="width: 4rem" id="shoesCard" />
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="btn btn-outline-secondary">More details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="card myShadow" style="width: 24rem; height: 35rem">
+                <img src="images/8aa8de514905a42753ddd0cd9d4f4d6e.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title" style="color: #123b87">
+                    Street sets
+                  </h5>
+                  <p class="card-text text-dark">
+                    Let us make it for you!Our designers create based on your
+                    interests
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price : $796.5</li>
+                  <li class="list-group-item d-flex align-items-center">
+                    How many do you need?
+                    <input type="number" value="0" class="form-control ms-2" style="width: 4rem" id="streetSetsCard" />
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="btn btn-outline-secondary">More details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card myShadow" style="width: 18rem">
+                <img
+                  src="images/iRi8F_vS7EwcXf40PexcqjWLJ3F5QWqgKtMSTcAT4oxSBcWfJS8GmTZhqCTl45UoC9ZvmHfCaxNkyd6ppR8muMgV9RLLvpVwNFn-OAnIMI4ppwdNWVE6vCOyTiCZZ6qtGyzU-wS2r1DvsUydcBcNmdO_DsR_z0dmCbSmRG1KI2VdoDCDG1YNFCDVA1g5YKyqv.jfif"
+                  alt="" class="card-img-top" />
+                <div class="card-body" style="height: 140px">
+                  <h5 class="card-title" style="color: #123b87">Menswear</h5>
+                  <p class="card-text text-dark">
+                    Be attractive with us in a different way.
+                  </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Price : 389.6$</li>
+                  <li class="list-group-item d-flex align-items-center">
+                    How many do you need?
+                    <input type="number" value="0" class="form-control ms-2" style="width: 4rem" id="menswearCard" />
+                  </li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="btn btn-outline-secondary">More details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="fw-bolder mt-5" style="height: 0.25rem; color: white" />
+        <section id="section2">
+          <div class="row my-5 gx-5 forms">
+            <div for="s-state">
+              <h3 class="form-label">Estimate Order</h3>
+            </div>
+            <div class="col-4" id="selectDiv">
+              <p for="" class="form-label fw-bold">State (required)</p>
+              <select id="s-state" class="form-select form-select-sm w-75">
+                <option value="">- select -</option>
+                <option value="CA">California (7.5% tax)</option>
+                <option value="IL">Illinois</option>
+                <option value="NH">New Hampshire</option>
+                <option value="PA">Pennsylvania</option>
+              </select>
+            </div>
+            <div action="" class="col-4" id="Shipping">
+              <p for="" class="form-label fw-bold">Shipping and Heading</p>
+              <div class="form-check">
+                <input type="radio" name="r-method" id="r-method-pickup" class="form-check-input" value="pickup"
+                  checked />
+                <label for="r-method-pickup" class="form-check-label">Pickup(free)</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="r-method" id="r-method-us" class="form-check-input" value="usps" />
+                <label for="r-method-us" class="form-check-label">US Mail ($2/item)</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="r-method" id="r-method-ups" class="form-check-input" value="ups" />
+                <label for="r-method-ups" class="form-check-label">UPS ($3/item)</label>
+              </div>
+            </div>
+            <div action="" class="col-4">
+              <p for="" class="fw-bold">Special :</p>
+              <div class="form-check">
+                <input type="checkbox" name="" id="special1" class="form-check-input" value="YES" />
+                <label for="special1" class="form-check-label">This is a gift (include a card)</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" name="" id="special2" class="form-check-input" value="YES" />
+                <label for="special2" class="form-check-label">Sign up for the H+ mailing list</label>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" name="" id="special3" class="form-check-input" value="YES" />
+                <label for="special3" class="form-check-label">Include H+ recipes (free!)</label>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center gx-5">
+            <div class="col-6">
+              <label for="textarea1" class="form-label">Write your notes here :
+              </label>
+              <textarea name="X" id="textarea1" cols="30" rows="3" class="form-control" style="resize: none"></textarea>
+            </div>
+            <div class="col-6 d-flex">
+              <button class="btn mybtn mt-md-4" type="submit" id="lastbtn">
+                Click to see the result
+              </button>
+              <!-- <button class="btn mybtn mt-md-4" type="button" id="lastoflastbtn">Cookie</button> -->
+              <input type="text" class="form-control w-50 ms-2 form-control-sm h-25 mt-md-4" id="resultinput" />
+            </div>
+          </div>
+        </section>
+        <div class="h-100 mt-5"></div>
+      </form>
+    </main>
+  </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="shop.js"></script>
+
+</html>
