@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Coves-li" ;
+    src: url(../Fonts/Coves/Coves\ Light.otf);
+    font-family: "Coves-B" ;
+    src: url(../Fonts/Coves/Coves\ Bold.otf);
+    font-family: "PlayfairDisplay" ;
+    src: url(../Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-family: "BYekan" ;
+    src: url(../Fonts/Persian/BYekan.ttf);
+    font-family: "Vazir-Medium" ;
+    src: url(../Fonts/Persian/Vazir-Medium-UI.ttf);
+    
+   
+}
+
+*{
+    font-family: "Vazir-Medium";
+}
+
+
+.a-padding{
+    padding: .5rem 1.5rem;
+}
+
+#header-img{
+    background: url(../Photos/Far_Cry_5_sunset_mountains_nature_video_games-2054391.jpg!d) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    /* position: absolute;
+    width: 100%;
+    height: 100%;*/
+} 
+
+.my-text{
+    color: #0a3158;
+}
+
+@font-face {
+    font-family: "AmaticSC-Bold" ;
+    src: url(../Fonts/AmaticSC-Bold.ttf);
+}
+
+.my-font{
+    font-family: "AmaticSC-Bold" !important;
+}
+
+.my-font2{
+    font-family: "PlayfairDisplay" ;
+}
+
+ul li a{
+    border-radius: 8px;
+}
+ul li a:hover{
+    background-color: #0a3158;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.link-unstyled{
+    color: white;
+    text-decoration: none;
+}
+
+.link-unstyled:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.a-padding:hover{
+    color: #0a3158;
+}
+
+#navbar-menu:hover{
+    border: white solid 1px;
+    box-shadow: none !important;
+}
+
+
+.header-form{
+    top: 30vh;
+    border: none;
+    position: relative;
+}
+
+.header-input{
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+}
+
+.header-input:focus{
+    outline: none ;
+    box-shadow: #124d87 0px 0px 30px 15px;
+}
+
+.searchIcon{
+    border: none;
+    font-size: large;
+    margin-right: 5px;
+    padding: 10px 15px 10px 13px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.searchIcon:hover{
+    box-shadow: #124d87 0px 0px 50px ;
+}
+
+
+#main-img{
+    position: absolute;
+    background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.my-button{
+    background-color: #0a3158;
+    color: white;
+}
+
+.my-button:hover{
+    color: white;
+    font-weight: bold;
+    box-shadow: #124d87 0px 0px 10px;
+}
+
+.main-card:hover{
+    box-shadow: #124d87 0px 0px 20px 15px;
+}
